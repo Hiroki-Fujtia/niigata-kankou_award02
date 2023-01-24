@@ -1,0 +1,487 @@
+/*==============================================*/
+/*共通*/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prize-top,
+.provision-area,
+.footer-area img,
+.information-area {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+}
+
+.btn-link,
+.icon-link {
+    transition: all 0.3s;
+}
+
+.btn-link:hover,
+.icon-link:hover  {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+/*==============================================*/
+/*FV*/
+
+.fv img {
+    width: 100%;
+}
+
+main {
+    background-image: url(../image/back-img.png)!important;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1080px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-copy {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 1.5rem;
+}
+
+
+
+
+.main-copy img {
+    width: 80%;
+}
+
+.guide-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.guide-area img {
+    max-width: 51%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guide-item {
+    margin-bottom: 15px;
+}
+
+.line-area img {
+    max-width: 1080px;
+}
+
+
+.line-area {
+    margin-top: 65px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+
+/*==============================================*/
+/*application section*/
+
+
+.application-top {
+    max-width: 417px;
+    height: auto;
+}
+.application-item {
+    padding-bottom:20px;
+}
+
+.terms-area {
+    position: relative;
+    top: -70px;
+}
+
+
+
+.terms-item img {
+    z-index: 3 !important;
+}
+
+.terms-btn {
+    /* max-width: 374px; */
+    display:flex;
+    justify-content: space-around;
+    height: auto;
+    position: relative;
+    /* left: 10%; */
+    padding-bottom: 20px;
+}
+.terms-btn img {
+    width: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+/*==============================================*/
+/*prize*/
+.prize-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prize-top {
+    max-width: 417px;
+    height: auto;
+}
+
+.prize-items img {
+    width: 45%;
+    margin: 15px;
+    margin: 10px;
+}
+
+.provision-area {
+    width: 85%;
+}
+.kyousan {
+    margin-top: 30px;
+    width:25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width:520px) {
+    .kyousan {
+        margin-top:0;
+    }
+}
+
+/*==============================================*/
+/*footer*/
+
+.footer-logo {
+    padding-bottom: 30px;
+}
+
+.footer-logo img {
+    width: 15%;
+}
+
+.information-area {
+    width: 70%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.information-area img {
+    margin-bottom: 15px;
+}
+.contact-img {
+    width: 21%;
+}
+
+.link-img {
+    width: 25%;
+}
+
+/*==============================================*/
+/*1024px以下*/
+
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .line-area img {
+        width: 80%;
+    }
+
+    .application-item {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .application-top {
+        max-width: 36.3%;
+        height: auto;
+    }
+
+    .terms-area {
+        text-align: center;
+        top: -50px;
+    }
+
+    .terms-area img {
+        width: 80%;
+    }
+
+    .terms-btn {
+        /* width: 50%; */
+        margin-left: 8%;
+    }
+    .terms-btn img {
+        width: 100%;
+    }
+
+    .prize-top {
+        max-width: 29%;
+        height: auto;
+    }
+
+    .prize-items img {
+        width: 40%;
+    }
+    .information-area img {
+        margin-bottom: 5px;
+    }
+    .tel-img {
+        padding-bottom: 15px;
+    }
+    .footer-logo {
+        padding-bottom: 0;
+    }
+}
+
+/*==============================================*/
+/*520px以下*/
+
+@media (max-width:520px) {
+    .main-copy {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .guide-item {
+        margin-bottom: 5px;
+
+    }
+
+    .line-area {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .terms-area {
+        top: -10px;
+    }
+
+    .terms-btn {
+        top: -10px;
+    }
+
+    
+    .provision-area {
+        width: 95%;
+    }
+    .information-area img {
+        margin-bottom: 0px;
+    }
+    .terms-btn {
+        padding-top:20px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .terms-btn {
+        width: 50%;
+    }
+    .btn-link {
+        padding-bottom: 10px;
+    }
+
+}
+
+/*--------------------*/
+/*-------結果発表-----*/
+
+.result-title-area {
+    text-align: center;
+}
+
+.result-text {
+    margin-top:60px;
+    margin-bottom:80px;
+
+}
+.prize-img {
+    text-align: center;
+    margin-bottom:30px;
+}
+.prize-img img {
+    width: 20%;
+}
+
+.result-container {
+     max-width: 1200px;
+     background: #fff;
+     padding: 80px 30px;
+}
+.grand-prize-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.grand-prize-item {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+.outstanding-prize-area {
+    margin-bottom: 100px;
+}
+
+.outstanding-prize-area,
+.special-prize-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.outstanding-prize-item {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding:40px 20px;
+}
+
+
+.special-prize-item {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    padding:40px 20px;
+}
+.prize-text {
+    text-align: center;
+    font-size:1.3rem;
+    font-weight: 600;
+}
+.name {
+    padding-top: 15px;
+    padding-bottom:5px;
+}
+.icon-link img {
+    width: 40px;
+}
+
+@media (max-width:768px) {
+    .result-text img {
+        width:70%!important;
+    }
+    .prize-img img {
+        width: 30%;
+    }
+    .result-container {
+        padding: 50px 10px;
+   } 
+   .special-prize-item {
+    width: 47%;
+   }
+}
+@media (max-width: 520px) {
+    .result-title-area img {
+        width: 60%!important;
+    }
+    .result-text {
+        margin-top:40px;
+        margin-bottom:60px;
+    }
+    .result-text img {
+        width:80%!important;
+    }
+    .prize-img {
+        margin-bottom:10px;
+    }
+    .prize-img img {
+        width: 40%;
+    }
+    .grand-prize-item {
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom:20px;
+    }
+    .outstanding-prize-item,
+    .special-prize-item  {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding:20px 0px;
+    }
+   
+    .icon-link img {
+        width: 25px;
+    }
+}
+
+
+
+/*------tab----------*/
+
+/*tabの形状*/
+.tab{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tab li {
+    list-style: none;
+}
+.tab li a{
+
+	display: block;
+	background:#ddd;
+	margin:0 2px;
+	padding:10px 20px;
+    color:#000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+/*liにactiveクラスがついた時の形状*/
+.tab li.active a{
+	background:#fff;
+}
+
+
+/*エリアの表示非表示と形状*/
+.area {
+	display: none;/*はじめは非表示*/
+	opacity: 0;/*透過0*/
+	padding-top:30px;
+}
+
+/*areaにis-activeというクラスがついた時の形状*/
+.area.is-active {
+    display: block;/*表示*/
+    animation-name: displayAnime;/*ふわっと表示させるためのアニメーション*/
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes displayAnime{
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
